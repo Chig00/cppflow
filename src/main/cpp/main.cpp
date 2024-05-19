@@ -1,5 +1,6 @@
 #include <iostream>
 #include <sstream>
+#include <vector>
 #include "nnsmall/nnloadsmall.hpp"
 
 constexpr int RUN_MODE_INDEX = 1;

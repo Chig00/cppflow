@@ -1,6 +1,6 @@
 call bin\clean
 mkdir build
-g++ src/main/cpp/main.cpp -o build/main -std=c++23 -Wall -Werror || goto :error
+g++ src/main/cpp/main.cpp -o build/main -ltensorflow -std=c++23 -Wall -Werror || goto :error
 goto :success
 
 :error
