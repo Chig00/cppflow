@@ -9,6 +9,8 @@
 namespace NeuralRun {
     namespace NNSmall {
         void run(const std::vector<std::string>& arguments) {
+            std::cout << '\n' << TF_Version() << '\n' << std::endl;
+            
             // Create a tensor from a list, a = [1.0, 2.0, 3.0]
             auto a = cppflow::tensor({1.0, 2.0, 3.0});
             // Create a tensor of shape 3 filled with 1.0, b = [1.0, 1.0, 1.0]
