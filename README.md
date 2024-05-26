@@ -7,5 +7,7 @@ C++ Tensorflow projects using CppFlow
 - SDL_net
 
 ## Quick Start
-`.\do py nnsmall`
-`.\do buildrun nnsmall`
+```
+.\do py nnsmall
+.\do buildrun nnsmall
+```
