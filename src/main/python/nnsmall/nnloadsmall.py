@@ -20,7 +20,8 @@ def main():
     print("\nLayer Analysis:", end = "")
     
     for layer in model.layers:
-        print("\nConfiguration:\n", layer.get_config(), "\n\nWeights:\n", layer.get_weights(), sep = "")
+        print("\nConfiguration:\n", layer.get_config(),
+              "\n\nWeights:\n", layer.get_weights(), sep = "")
 
 # Allows import without run.
 if __name__ == "__main__":
