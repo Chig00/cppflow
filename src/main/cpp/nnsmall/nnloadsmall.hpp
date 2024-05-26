@@ -9,18 +9,18 @@ namespace NeuralRun {
         constexpr int AXIS_COUNT = 2;
         constexpr int CLASS_COUNT = 2;
         constexpr float POSITIVE_CLASS_THRESHOLD = 0.5;
-        constexpr float START = 0;
+        constexpr float START = 0.00625;
         constexpr float STOP = 1;
-        constexpr float INCREMENT = 0.04999;
+        constexpr float INCREMENT = 0.0125;
         
-        constexpr int WINDOW_WIDTH = 400;
-        constexpr int WINDOW_HEIGHT = 400;
+        constexpr int WINDOW_WIDTH = 600;
+        constexpr int WINDOW_HEIGHT = 600;
         constexpr int POSITIVE_CLASS_WIDTH = WINDOW_WIDTH / 2;
         constexpr int POSITIVE_CLASS_HEIGHT = WINDOW_HEIGHT / 2;
         constexpr int POSITIVE_CLASS_X = WINDOW_WIDTH - POSITIVE_CLASS_WIDTH;
         constexpr int POSITIVE_CLASS_Y = 0;
-        constexpr int LABELLED_POINT_WIDTH = 10;
-        constexpr int LABELLED_POINT_HEIGHT = 10;
+        constexpr int LABELLED_POINT_WIDTH = 4;
+        constexpr int LABELLED_POINT_HEIGHT = 4;
         
         class LabelledPoint {
             public:
