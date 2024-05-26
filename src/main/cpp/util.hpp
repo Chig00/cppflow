@@ -11,7 +11,7 @@ namespace NeuralUtil {
     }
     
     cppflow::tensor apply_dense_model(cppflow::model& model,
-                                      const cppflow::tensor& input) {
+                                      const cppflow::tensor& input) noexcept {
         return model({{Private::DENSE_INPUT_NAME, input}},
                      Private::SINGLETON_OUTPUT_NAMES)[0];
     }
