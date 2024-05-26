@@ -1,7 +1,7 @@
 #pragma once
 
-#include <sstream>
 #include <cppflow/cppflow.h>
+#include "sdlandnet/sdlandnet.hpp"
 
 namespace NeuralUtil {
     namespace Private {

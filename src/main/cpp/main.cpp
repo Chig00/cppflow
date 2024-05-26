@@ -36,4 +36,5 @@ int main(int argc, char** argv) {
         stream << "Unknown run mode: [" << run_mode << "].";
         throw std::runtime_error(stream.str());
     }
+    return 0;
 }
